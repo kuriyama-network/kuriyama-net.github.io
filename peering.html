@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/index.css">
+	<title>Kuriyama-Network</title>
+</head>
+
+<body>
+	<header class="header">
+		<h1>Kuriyama-Network</h1>
+		<nav>
+			<ul>
+				<li class=”current”><a href=#about>About</a></li>
+				<li><a href=#member>Member</a></li>
+				<li><a href=#sponsor>Sponsor</a></li>
+				<li><a href=#link>Link</a></li>
+				<li><a href=#contact>Contact</a></li>
+				<li><a href=https://www.kuriyama-net.org/peering>Peering</a></li>
+				<li><a href=https://customer.kuriyama-net.org>Customer</a></li>
+			</ul>
+		</nav>
+	</header>
+	<img src="img/index.jpg" alt="ラックの画像" width="max-width:100vw;">
+	<div class="main">
+		<section id="peerpolicy">
+			<h1>ピアリングポリシー</h1>
+			<p>当団体のピアリングポリシーはOpenです。</p>
+		</section>
+		<section id="peerconditions">
+		<h3>ピアリング条件</h3>
+		<ul>
+			<li>グローバルASNを割り当てられていること</li>
+			<li>[IPv4 /24以上] or [IPv6 /48以上] を割り当てられていること</li>
+			<li>ROAを作成しRPKIで検証可能であること(推奨)</li>
+			<li>IRRに [Aut-Num, Route, Route6] オブジェクトが登録してあること</li>
+		</ul>
+		</section>
+		<section id="routingpolicy">
+		<h3>ルーティングポリシー</h3>
+		<ul>
+			<li>[IPv4 /24未満] or [IPv6 /48未満] のプレフィックスは破棄します。</li>
+			<li>以下の経路を広報がされた場合は破棄します。
+				<ul>
+					<li>0.0.0.0/8</li>
+					<li>10.0.0.0/8</li>
+					<li>100.64.0.0/10</li>
+					<li>127.0.0.0/8</li>
+					<li>169.254.0.0/16</li>
+					<li>172.16.0.0/12</li>
+					<li>192.0.0.0/24</li>
+					<li>192.0.2.0/24</li>
+					<li>192.88.99.0/24</li>
+					<li>192.168.0.0/16</li>
+					<li>198.18.0.0/15</li>
+					<li>198.51.100.0/24</li>
+					<li>203.0.113.0/24</li>
+					<li>240.0.0.0/4</li>
+					<li>2001::/23</li>
+					<li>2001::/32</li>
+					<li>2001:2::/48</li>
+					<li>2001:db8::/32</li>
+					<li>2001:10::/28</li>
+					<li>2002::/16</li>
+					<li>fc00::/7</li>
+					<li>fe80::/10</li>
+				</ul>
+			</li>
+		</ul>
+		</section>
+		<section id="unpeering">
+		<h3>ピアリングの解除について</h3>
+		当ネットワークに対して著しく影響を与える場合はピアリングを解除することがあります。</div><br><br><br>
+		</section>
+	</div>
+	<footer class="footer">
+		<p class="copyright">© 2024 Kuriyama-Network All Rights Reserved.</p>
+	</footer>
+</body>
+
+</html>
