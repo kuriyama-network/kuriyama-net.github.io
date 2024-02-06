@@ -36,7 +36,9 @@ header {
 
 #member,
 #link,
-.goal {
+.goal,
+#DNS,
+#peerpolicy,#routingpolicy {
 	margin: 0px;
 	padding: 10px 10px;
 	margin-right: calc(50% - 50vw);
@@ -45,7 +47,8 @@ header {
 	padding-left: calc(50vw - 50%);
 	background: #6688cc;
 	color: white;
-	h2{
+
+	h2 {
 		line-height: 0px;
 	}
 }
@@ -59,8 +62,8 @@ header {
 	}
 }
 
-img{
-	vertical-align:top;
+img {
+	vertical-align: top;
 }
 
 .link-button {
