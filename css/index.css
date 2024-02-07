@@ -60,6 +60,9 @@ header {
 		list-style: none;
 		padding-left: 0;
 	}
+	img {
+		vertical-align: middle;
+	}
 }
 
 img {

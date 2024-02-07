@@ -6,25 +6,12 @@
 	<link rel="stylesheet" href="css/header.css">
 	<link rel="stylesheet" href="css/footer.css">
 	<link rel="stylesheet" href="css/index.css">
+	<script src="js/common.js"></script>
 	<title>Kuriyama-Network</title>
 </head>
 
 <body>
-	<header class="header">
-		<h1>Kuriyama-Network</h1>
-		<nav>
-			<ul>
-				<li class=”current”><a href=#about>About</a></li>
-				<li><a href=#member>Member</a></li>
-				<li><a href=#sponsor>Sponsor</a></li>
-				<li><a href=#link>Link</a></li>
-				<li><a href=#contact>Contact</a></li>
-				<li><a href=https://www.kuriyama-net.org/peering.html>Peering</a></li>
-				<li><a href=https://customer.kuriyama-net.org>Customer</a></li>
-			</ul>
-		</nav>
-	</header>
-	<img src="img/index.jpg" alt="ラックの画像" width="max-width:100vw;">
+	<div id="header"></div>
 	<div class="main">
 		<section id="peerpolicy">
 			<h1>ピアリングポリシー</h1>
@@ -43,7 +30,7 @@
 		<h3>ルーティングポリシー</h3>
 		<ul>
 			<li>[IPv4 /24未満] or [IPv6 /48未満] のプレフィックスは破棄します。</li>
-			<li>以下の経路を広報がされた場合は破棄します。
+			<li>以下の経路を広報された場合は破棄します。
 				<ul>
 					<li>0.0.0.0/8</li>
 					<li>10.0.0.0/8</li>
@@ -76,9 +63,7 @@
 		当ネットワークに対して著しく影響を与える場合はピアリングを解除することがあります。</div><br><br><br>
 		</section>
 	</div>
-	<footer class="footer">
-		<p class="copyright">© 2024 Kuriyama-Network All Rights Reserved.</p>
-	</footer>
+	<div id="footer"></div>
 </body>
 
 </html>
