@@ -26,7 +26,7 @@ header {
 	background: #fff;
 	border-top: 1px solid #e5e7eb;
 	padding: 2px 0px 2px 0px;
-	/*  上・右・下・左 で余白を設定   */
+	/*  上・右・下・左 で余白を設定 */
 	margin-right: calc(50% - 50vw);
 	margin-left: calc(50% - 50vw);
 	padding-right: calc(50vw - 50%);
@@ -38,7 +38,8 @@ header {
 #link,
 .goal,
 #DNS,
-#peerpolicy,#routingpolicy {
+#peerpolicy,
+#routingpolicy {
 	margin: 0px;
 	padding: 10px 10px;
 	margin-right: calc(50% - 50vw);
@@ -60,8 +61,33 @@ header {
 		list-style: none;
 		padding-left: 0;
 	}
+
 	img {
 		vertical-align: middle;
+	}
+}
+
+.member-pic{
+	width: 30%;
+
+	@media screen and (max-width: 900px) {
+		width: 40%;
+	}
+
+	@media screen and (max-width: 500px) {
+		width: 50%;
+	}
+}
+
+.member-x-logo{
+	width: 2%;
+
+	@media screen and (max-width: 900px) {
+		width: 6%;
+	}
+
+	@media screen and (max-width: 500px) {
+		width: 10%;
 	}
 }
 
@@ -70,10 +96,16 @@ img {
 }
 
 .link-button {
-	display: flex;
+	@media screen and (min-width: 901px) {
+		display: flex;
+		margin: 25px;
+	}
+	@media screen and (max-width: 900px) {
+		margin: 10px;
+	}
 }
 
-a.btn_04 {
+a.link_btn {
 	display: block;
 	text-align: center;
 	text-decoration: none;
@@ -86,9 +118,10 @@ a.btn_04 {
 	color: #fff;
 	border-radius: 100vh;
 	transition: 0.5s;
+	border: 1px solid #fcfbfb;
 }
 
-a.btn_04:hover {
+a.link_btn:hover {
 	color: #27acd9;
 	background: #fff;
 }
