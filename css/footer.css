@@ -15,19 +15,6 @@
 
 @media (min-width: 768px) {
 	.footer {
-		display: flex;
-		justify-content: space-between;
-	}
-
-	.md-flex {
-		display: flex;
-	}
-
-	.md-flex li+li {
-		margin-left: 16px;
-	}
-
-	span {
-		display: inline-block;
+		font-size: 15px;
 	}
 }
